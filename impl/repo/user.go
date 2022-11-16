@@ -1,8 +1,8 @@
 package repo
 
 import (
-	"refactoring/models"
-	"refactoring/storage/user"
+	"github.com/PavelMo/user-api/models"
+	"github.com/PavelMo/user-api/storage/user"
 )
 
 type userRepo struct {

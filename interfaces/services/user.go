@@ -1,6 +1,6 @@
 package services
 
-import "refactoring/models"
+import "github.com/PavelMo/user-api/models"
 
 type IUserService interface {
 	GetAllUsers() models.UserList

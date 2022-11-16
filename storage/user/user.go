@@ -3,11 +3,11 @@ package user
 import (
 	"encoding/json"
 	"errors"
+	errs "github.com/PavelMo/user-api/err"
+	"github.com/PavelMo/user-api/models"
 	"io/fs"
 	"io/ioutil"
 	"log"
-	errs "refactoring/err"
-	"refactoring/models"
 	"strconv"
 	"sync"
 	"time"

@@ -1,8 +1,8 @@
 package services
 
 import (
-	"refactoring/interfaces/repo"
-	"refactoring/models"
+	"github.com/PavelMo/user-api/interfaces/repo"
+	"github.com/PavelMo/user-api/models"
 )
 
 type userService struct {

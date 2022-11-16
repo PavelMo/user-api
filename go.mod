@@ -1,4 +1,4 @@
-module refactoring
+module github.com/PavelMo/user-api
 
 go 1.17
 

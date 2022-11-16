@@ -2,15 +2,15 @@ package main
 
 import (
 	"context"
+	v1 "github.com/PavelMo/user-api/api/v1"
+	u "github.com/PavelMo/user-api/api/v1/use-cases"
+	"github.com/PavelMo/user-api/impl/repo"
+	"github.com/PavelMo/user-api/impl/services"
 	"github.com/go-chi/chi/v5"
 	"log"
 	"net/http"
 	"os"
 	"os/signal"
-	v1 "refactoring/api/v1"
-	u "refactoring/api/v1/use-cases"
-	"refactoring/impl/repo"
-	"refactoring/impl/services"
 	"syscall"
 	"time"
 )

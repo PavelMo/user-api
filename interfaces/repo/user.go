@@ -1,6 +1,6 @@
 package repo
 
-import "refactoring/models"
+import "github.com/PavelMo/user-api/models"
 
 type IUserRepo interface {
 	GetAllUsers() models.UserList

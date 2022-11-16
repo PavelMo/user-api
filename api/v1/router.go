@@ -1,11 +1,11 @@
 package v1
 
 import (
+	u "github.com/PavelMo/user-api/api/v1/use-cases"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"log"
 	"net/http"
-	u "refactoring/api/v1/use-cases"
 	"time"
 )
 

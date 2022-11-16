@@ -2,12 +2,12 @@ package use_cases
 
 import (
 	"errors"
+	"github.com/PavelMo/user-api/api/v1/views"
+	errs "github.com/PavelMo/user-api/err"
+	"github.com/PavelMo/user-api/interfaces/services"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 	"net/http"
-	"refactoring/api/v1/views"
-	errs "refactoring/err"
-	"refactoring/interfaces/services"
 )
 
 type UserUseCases struct {
